@@ -1,0 +1,19 @@
+.main_card {
+   height: 20rem;
+
+}
+
+.image {
+   text-align: center;
+}
+
+.buttoninfo {
+   position: relative;
+   margin: 15px 5px;
+}
+
+.shop_now {
+   background-color: rgba(0, 0, 255, 0.404);
+   margin-top: 25px;
+   height: 400px;
+}

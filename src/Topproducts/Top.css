@@ -1,0 +1,29 @@
+.homebrands {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.homebrand {
+    border: 0px solid black;
+    width: 320px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 35px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px grey;
+    transition: all 0.5s ease-in;
+}
+
+.homebrand:hover {
+    box-shadow: 10px 10px 10px grey;
+    box-sizing: border-box;
+    transform: scale(1.1);
+    background-color: rgba(30, 143, 255, 0.155);
+    /* border: 2px solid black; */
+
+
+}

@@ -1,0 +1,81 @@
+#header {
+    width: 100%;
+    height: 80vh;
+    margin-top: 70px;
+}
+
+#header h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    color: black;
+}
+
+
+#header .btn-get-started {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border: 50px;
+    transition: 0.5s;
+    color: rgba(46, 132, 218, 0.736);
+    border: 2px solid rgba(30, 143, 255, 0.736);
+    text-decoration: none;
+}
+
+#header .btn-get-started {
+    background-color: skyblue;
+    color: #fff;
+}
+
+#header .animated {
+
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.imageac {
+    width: 500px;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.main-container {
+    margin-bottom: -40px;
+}
+
+@media screen and (max-width:960px) and (min-width:360px) {
+    .imageac {
+        margin-left: -10px;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .content {
+        height: 100px;
+    }
+
+    .details {
+        box-sizing: border-box;
+        /* margin-bottom: 200px; */
+        /* padding: 10px; */
+        position: relative;
+        bottom: 70px;
+
+        height: 500px;
+    }
+
+    .flex {
+        height: 1500px;
+    }
+}

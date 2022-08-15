@@ -1,0 +1,11 @@
+.maincontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.child{
+    padding-top: 50px;
+    text-align: center;
+}
+.child p{
+    width: 280px;
+}
